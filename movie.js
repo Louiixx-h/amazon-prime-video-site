@@ -3,7 +3,6 @@ let main = document.querySelectorAll(' .main .center')[0]
 fetch('https://api.themoviedb.org/3/movie/popular?api_key=86ef71989f8c4a9a7cc321d7a0f6a528')
 .then(response => response.json())
 .then(data => {
-    console.log(data)
     data.results.map((i, j)=>{
         if(j>10)
             return
