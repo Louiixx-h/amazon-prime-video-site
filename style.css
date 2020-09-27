@@ -30,6 +30,7 @@ header {
 }
 .menu-items {
     padding: 0 20px;
+    margin-top: 10px;
     display: inline-block;
 }
 .menu-items a {
@@ -63,4 +64,25 @@ header {
     padding-left: 24px;
     background-color: rgb(40, 40, 40);
     color: white;
+}
+.banner-principal {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.main h2{
+    color: white;
+    width: 100%;
+    margin: 30px 0;
+}
+.card-movie {
+    width: 20%;
+}
+.card-movie img {
+    width: 100%;
+    transition: 1s;
+}
+.card-movie img:hover {
+    transform:scale(1.1,1.1);
 }
