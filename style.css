@@ -16,6 +16,7 @@ header {
     padding: 0 2%;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 .logo {
     display: inline-block;
